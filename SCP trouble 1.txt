@@ -1,0 +1,108 @@
+
+ignored starts on line 9; read failed line 60
+
+debug3: Ignored env LS_COLORS
+debug3: Ignored env XDG_MENU_PREFIX
+debug1: Sending env LANG = en_US.UTF-8
+debug2: channel 0: request env confirm 0
+debug3: send packet: type 98
+debug3: Ignored env GDM_LANG
+debug3: Ignored env DISPLAY
+debug3: Ignored env COLORTERM
+debug3: Ignored env USERNAME
+debug3: Ignored env XDG_VTNR
+debug3: Ignored env SSH_AUTH_SOCK
+debug3: Ignored env XDG_SESSION_ID
+debug3: Ignored env USER
+debug3: Ignored env DESKTOP_SESSION
+debug3: Ignored env QT_QPA_PLATFORMTHEME
+debug3: Ignored env PWD
+debug3: Ignored env HOME
+debug3: Ignored env JOURNAL_STREAM
+debug3: Ignored env SSH_AGENT_PID
+debug3: Ignored env QT_ACCESSIBILITY
+debug3: Ignored env XDG_SESSION_TYPE
+debug3: Ignored env XDG_DATA_DIRS
+debug3: Ignored env XDG_SESSION_DESKTOP
+debug3: Ignored env GJS_DEBUG_OUTPUT
+debug3: Ignored env GTK_MODULES
+debug3: Ignored env WINDOWPATH
+debug3: Ignored env TERM
+debug3: Ignored env SHELL
+debug3: Ignored env VTE_VERSION
+debug3: Ignored env XDG_CURRENT_DESKTOP
+debug3: Ignored env GPG_AGENT_INFO
+debug3: Ignored env QT_LINUX_ACCESSIBILITY_ALWAYS_ON
+debug3: Ignored env SHLVL
+debug3: Ignored env XDG_SEAT
+debug3: Ignored env WINDOWID
+debug3: Ignored env GDMSESSION
+debug3: Ignored env GNOME_DESKTOP_SESSION_ID
+debug3: Ignored env LOGNAME
+debug3: Ignored env DBUS_SESSION_BUS_ADDRESS
+debug3: Ignored env XDG_RUNTIME_DIR
+debug3: Ignored env XAUTHORITY
+debug3: Ignored env PATH
+debug3: Ignored env GJS_DEBUG_TOPICS
+debug3: Ignored env SESSION_MANAGER
+debug3: Ignored env _
+debug3: Ignored env OLDPWD
+debug1: Sending command: scp -v /RPIFiles/bcm2835-1.58.tar.gz pi@rpinode0:/Desktop/bcm2835-1.58.tar.gz
+debug2: channel 0: request exec confirm 1
+debug3: send packet: type 98
+debug2: callback done
+debug2: channel 0: open confirm rwindow 0 rmax 32768
+debug2: channel 0: rcvd adjust 2097152
+debug3: receive packet: type 99
+debug2: channel_input_status_confirm: type 99 id 0
+debug2: exec request accepted on channel 0
+debug2: channel 0: read<=0 rfd 4 len 0
+debug2: channel 0: read failed
+debug2: channel 0: close_read
+debug2: channel 0: input open -> drain
+debug2: channel 0: ibuf empty
+debug2: channel 0: send eof
+debug3: send packet: type 96
+debug2: channel 0: input drain -> closed
+debug2: channel 0: rcvd ext data 103
+Executing: program /usr/bin/ssh host rpinode0, user pi, command scp -v -t /Desktop/bcm2835-1.58.tar.gz
+debug2: channel 0: written 103 to efd 6
+debug2: channel 0: rcvd ext data 117
+OpenSSH_7.4p1 Debian-10+deb9u4, OpenSSL 1.0.2l  25 May 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug2: channel 0: written 117 to efd 6
+debug2: channel 0: rcvd ext data 61
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+debug2: channel 0: written 61 to efd 6
+debug2: channel 0: rcvd ext data 69
+ssh: Could not resolve hostname rpinode0: Name or service not known
+debug2: channel 0: written 69 to efd 6
+debug2: channel 0: rcvd ext data 16
+lost connection
+debug2: channel 0: written 16 to efd 6
+debug3: receive packet: type 98
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug3: receive packet: type 96
+debug2: channel 0: rcvd eof
+debug2: channel 0: output open -> drain
+debug2: channel 0: obuf empty
+debug2: channel 0: close_write
+debug2: channel 0: output drain -> closed
+debug3: receive packet: type 97
+debug2: channel 0: rcvd close
+debug3: channel 0: will not send data after close
+debug2: channel 0: almost dead
+debug2: channel 0: gc: notify user
+debug2: channel 0: gc: user detached
+debug2: channel 0: send close
+debug3: send packet: type 97
+debug2: channel 0: is dead
+debug2: channel 0: garbage collecting
+debug1: channel 0: free: client-session, nchannels 1
+debug3: channel 0: status: The following connections are open:
+  #0 client-session (t4 r0 i3/0 o3/0 fd -1/-1 cc -1)
+
+debug3: send packet: type 1
+Transferred: sent 2032, received 2680 bytes, in 10.1 seconds
+Bytes per second: sent 201.5, received 265.8
+debug1: Exit status 1
