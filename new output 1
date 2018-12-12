@@ -1,0 +1,16 @@
+debug1: read_passphrase: can't open /dev/tty: No such device or address
+debug1: Authentications that can continue: publickey,password
+Permission denied, please try again.
+debug1: read_passphrase: can't open /dev/tty: No such device or address
+debug1: Authentications that can continue: publickey,password
+Permission denied, please try again.
+debug1: read_passphrase: can't open /dev/tty: No such device or address
+debug1: Authentications that can continue: publickey,password
+debug1: No more authentication methods to try.
+Permission denied (publickey,password).
+lost connection
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: channel 0: free: client-session, nchannels 1
+Transferred: sent 2032, received 6648 bytes, in 0.6 seconds
+Bytes per second: sent 3417.8, received 11181.8
+debug1: Exit status 1
